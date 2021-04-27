@@ -7,10 +7,9 @@ import java.util.concurrent.ForkJoinPool;
 public class Animal {
    private String name;
    private Food food;
-
    public Animal(String name){
        this.name = name;
-       System.out.println("Ten con vat moi la: " + name);
+       System.out.println("Ten con vat la: " + name);
    }
 
    public Animal(Food food) {
@@ -48,4 +47,5 @@ public class Animal {
                 ", food=" + food +
                 '}';
     }
+
 }
